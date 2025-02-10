@@ -22,7 +22,11 @@ public class MyPoint {
         return Math.sqrt(xDiff * xDiff + yDiff * yDiff);
     }
 
-0    public String toString() {
-        return "(" + x + ", " + y + ")";
+    //public String toString() {
+      //  return "(" + x + ", " + y + ")";
+    // }
+
+    public String toFormattedString() {
+        return "Point(" + x + ", " + y + ")";
     }
 }

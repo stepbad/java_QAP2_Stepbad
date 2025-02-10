@@ -50,7 +50,11 @@ public class MyLine {
     }
     
     
-    public String toString() {
-        return "MyLine[begin=" + begin + ", end=" + end + "]";
+     //public String toString() {
+       //return "MyLine[begin=" + begin + ", end=" + end + "]";
+    //}
+
+    public String toFormattedString() {
+        return "Line[begin=" + begin.toFormattedString() + ", end=" + end.toFormattedString() + "]";
     }
 }
